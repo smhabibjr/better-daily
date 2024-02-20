@@ -59,7 +59,7 @@
 </template>
 
 <script lang="ts" setup>
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 import { useQuasar } from 'quasar';
 
 const $q = useQuasar();
