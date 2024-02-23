@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
       </q-toolbar>
-      <div class="q-px-lg q-pt-xl q-mb-md">
+      <div class="q-px-lg q-pt-lg q-mb-md">
         <div class="text-h3">Todo</div>
         <div class="text-subtitle1">{{ todayDate }}</div>
       </div>
@@ -26,8 +26,8 @@
     >
       <q-scroll-area
         style="
-          height: calc(100% - 192px);
-          margin-top: 192px;
+          height: calc(100% - 253px);
+          margin-top: 253px;
           border-right: 1px solid #ddd;
         "
       >
@@ -53,7 +53,7 @@
       <q-img
         class="absolute-top"
         src="src/assets/mountain.jpg"
-        style="height: 192px"
+        style="height: 253px"
       >
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
